@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3cb8bbf661bc47f08786a38fc5b5e94e" Name="Diagram1" ZoomLevel="73">
+        <EntityTypeShape EntityType="VinidiktovDay3Model.Analyzer_BloodService" Width="1.5" PointX="0.75" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="VinidiktovDay3Model.Blood" Width="1.5" PointX="8.25" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="VinidiktovDay3Model.Blood_Service" Width="1.5" PointX="3" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="VinidiktovDay3Model.Country" Width="1.5" PointX="3.75" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="VinidiktovDay3Model.Insurance_Name" Width="1.5" PointX="3.75" PointY="16.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="VinidiktovDay3Model.Patient" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="VinidiktovDay3Model.Services" Width="1.5" PointX="0.75" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="VinidiktovDay3Model.Social_Type" Width="1.5" PointX="3.75" PointY="18.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="VinidiktovDay3Model.Status_BloodService" Width="1.5" PointX="0.75" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="VinidiktovDay3Model.Type_User" Width="1.5" PointX="3.75" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="VinidiktovDay3Model.Users" Width="1.5" PointX="6" PointY="8.5" IsExpanded="true" />
+        <AssociationConnector Association="VinidiktovDay3Model.FK_Blood_Service_Analyzer_BloodService" ManuallyRouted="false" />
+        <AssociationConnector Association="VinidiktovDay3Model.FK_Blood_Patient" ManuallyRouted="false" />
+        <AssociationConnector Association="VinidiktovDay3Model.FK_Blood_Service_Services" ManuallyRouted="false" />
+        <AssociationConnector Association="VinidiktovDay3Model.FK_Blood_Service_Status_BloodService" ManuallyRouted="false" />
+        <AssociationConnector Association="VinidiktovDay3Model.FK_Blood_Service_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="VinidiktovDay3Model.FK_Patient_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="VinidiktovDay3Model.FK_Patient_Insurance_Name" ManuallyRouted="false" />
+        <AssociationConnector Association="VinidiktovDay3Model.FK_Patient_Social_Type" ManuallyRouted="false" />
+        <AssociationConnector Association="VinidiktovDay3Model.FK_Patient_Type_User" ManuallyRouted="false" />
+        <AssociationConnector Association="VinidiktovDay3Model.FK_Users_Services" ManuallyRouted="false" />
+        <AssociationConnector Association="VinidiktovDay3Model.FK_Users_Services1" ManuallyRouted="false" />
+        <AssociationConnector Association="VinidiktovDay3Model.FK_Users_Services2" ManuallyRouted="false" />
+        <AssociationConnector Association="VinidiktovDay3Model.FK_Users_Services3" ManuallyRouted="false" />
+        <AssociationConnector Association="VinidiktovDay3Model.FK_Users_Services4" ManuallyRouted="false" />
+        <AssociationConnector Association="VinidiktovDay3Model.FK_Users_Type_User" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="VinidiktovDay3Model.HistoryLogUsers" Width="1.5" PointX="8.25" PointY="10" />
+        <AssociationConnector Association="VinidiktovDay3Model.FK_HistoryLogUsers_Users" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
